@@ -1,0 +1,31 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Hero section */
+.hero {
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)),
+    url('../images/background.jpg') center/cover no-repeat;
+}
+
+/* Section titles */
+h2 {
+  color: #040f12;
+  font-weight: 700;
+}
+
+/* Project cards */
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.badge {
+  font-size: 1rem;
+}
